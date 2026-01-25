@@ -9,3 +9,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [FrontendController::class, 'index'])->name('front.home');
 Route::get('/contact-contact', [FrontendController::class, 'contact'])->name('front.contact');
 Route::get('/about-about-web', [FrontendController::class, 'about'])->name('front.about');
+Route::get('/about', [FrontendController::class, 'about'])->name('front.about');
